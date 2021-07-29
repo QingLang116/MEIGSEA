@@ -1,20 +1,19 @@
 Package: MEIGSEA
-Title: What the Package Does (One Line, Title Case)
+Title: Inference of mutation effect on immunophenotype by integrated GSEA
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Liwen",
+           family = "Xu",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+           email = "first.last@example.com")
+Description: MEIGSEA is used to identify gene mutations associated with immunophenotypes
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.0.0
+RoxygenNote: 7.1.1
 Suggests: 
+    covr,
     renv
 Imports: 
     purrr,
@@ -24,4 +23,5 @@ Imports:
     DESeq2,
     fgsea,
     clusterProfiler,
-    pheatmap
+    pheatmap,
+    methods
